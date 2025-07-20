@@ -1,0 +1,101 @@
+
+/*leaving notes for myself because i forget everything*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #3a3f58;
+  line-height: 1.6;
+}
+
+/*This is the what i am using for the header (Estevans Tips/Tricks)*/
+header {
+  background-color: #3a3f58;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* makes everything within the container horizontal, putting it in a row */
+.container {
+  display: flex;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+/* my nav bar containing home, games, trending and discounts (currently on the left due to the container */
+nav {
+  width: 200px;
+  background-color: #6c7a89;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a2b9bc;
+}
+
+main {
+  flex: 1;
+  margin-left: 20px;
+}
+
+main h2 {
+  margin-bottom: 10px;
+}
+
+/*bottom of page (last updated and email me */
+footer {
+  background-color: #3a3f58;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/*making my images center and horizontal as well as adding a gap in between each image */
+.gamephotos {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+/*making my images the same size*/
+.gamephotos img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/*this is the suggestions note*/
+.note {
+  text-align: center;
+  margin: 20px 0;
+}
+
